@@ -1,6 +1,7 @@
 import "react";
 import { CodeExample } from "code-example";
 import { installStoneberryTypes } from "./StoneberryMonacoTypes.ts";
+import "code-example/style.css";
 
 export interface StoneberryCodeExampleProps {
   code: string;

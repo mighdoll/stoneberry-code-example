@@ -15,15 +15,28 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "pnpm": {
-    "overrides": {
-      "react": "^18.2.0"
+  "module": "dist/StoneberryExample.js",
+  "types": "dist/StoneberryExample.d.ts",
+  "export": {
+    ".": {
+      "import": "dist/StoneberryExample.js",
+      "types": "dist/StoneberryExample.d.ts"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css",
+      "resolve": "./dist/style.css",
+      "default": "./dist/style.css"
     }
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "dev": "vite",
     "prepublish": "rimraf dist && pnpm run build && pnpm run build:types",
-    "build": "esbuild --bundle --packages=external --outdir=dist --format=esm  src/StoneberryExample.tsx",
+    "build": "vite build",
     "build:types": "tsc --project tsconfig.build.json"
   },
   "devDependencies": {
