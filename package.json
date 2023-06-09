@@ -1,7 +1,6 @@
 {
   "name": "stoneberry-code-example",
   "version": "0.0.1",
-  "type": "module",
   "dependencies": {
     "@monaco-editor/react": "^4.5.1",
     "@webgpu/types": "^0.1.32",
@@ -16,10 +15,12 @@
     "react-dom": "^18.2.0"
   },
   "module": "dist/StoneberryExample.js",
+  "main": "dist/StoneberryExample.cjs",
   "types": "dist/StoneberryExample.d.ts",
   "export": {
     ".": {
       "import": "dist/StoneberryExample.js",
+      "require": "dist/StoneberryExample.cjs",
       "types": "dist/StoneberryExample.d.ts"
     },
     "./style.css": {

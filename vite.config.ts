@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     cssCodeSplit: false,
     lib: {
-      formats: ["es"],
+      formats: ["es", "cjs"],
       entry: "src/StoneberryExample.tsx",
       name: "StoneberryExample",
       fileName: "StoneberryExample",
