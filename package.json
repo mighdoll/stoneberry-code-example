@@ -4,15 +4,15 @@
   "dependencies": {
     "@monaco-editor/react": "^4.5.1",
     "@webgpu/types": "^0.1.32",
-    "live-typescript": "^0.1.0",
+    "live-typescript": "^0.1.1",
     "monaco-editor": "^0.39.0",
-    "stoneberry": "file:../stoneberry",
+    "stoneberry": "^0.1.4",
     "stoneberry-examples": "^0.1.1",
     "thimbleberry": "^0.1.10"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": ">=17",
+    "react-dom": ">=17"
   },
   "module": "dist/StoneberryExample.mjs",
   "main": "dist/StoneberryExample.js",

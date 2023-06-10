@@ -8,14 +8,14 @@ dependencies:
     specifier: ^0.1.32
     version: 0.1.32
   live-typescript:
-    specifier: ^0.1.0
-    version: 0.1.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.1.1
+    version: 0.1.1(react-dom@18.2.0)(react@18.2.0)
   monaco-editor:
     specifier: ^0.39.0
     version: 0.39.0
   stoneberry:
-    specifier: file:../stoneberry
-    version: file:../stoneberry
+    specifier: ^0.1.4
+    version: 0.1.4
   stoneberry-examples:
     specifier: ^0.1.1
     version: 0.1.1
@@ -933,8 +933,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001495
-      electron-to-chromium: 1.4.425
+      caniuse-lite: 1.0.30001497
+      electron-to-chromium: 1.4.427
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
     dev: true
@@ -944,8 +944,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001495:
-    resolution: {integrity: sha512-F6x5IEuigtUfU5ZMQK2jsy5JqUUlEFRVZq8bO2a+ysq5K7jD6PPc9YXZj78xDNS3uNchesp1Jw47YXEqr+Viyg==}
+  /caniuse-lite@1.0.30001497:
+    resolution: {integrity: sha512-I4/duVK4wL6rAK/aKZl3HXB4g+lIZvaT4VLAn2rCgJ38jVLb0lv2Xug6QuqmxXFVRJMF74SPPWPJ/1Sdm3vCzw==}
     dev: true
 
   /chalk@2.4.2:
@@ -1045,8 +1045,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.425:
-    resolution: {integrity: sha512-wv1NufHxu11zfDbY4fglYQApMswleE9FL/DSeyOyauVXDZ+Kco96JK/tPfBUaDqfRarYp2WH2hJ/5UnVywp9Jg==}
+  /electron-to-chromium@1.4.427:
+    resolution: {integrity: sha512-HK3r9l+Jm8dYAm1ctXEWIC+hV60zfcjS9UA5BDlYvnI5S7PU/yytjpvSrTNrSSRRkuu3tDyZhdkwIczh+0DWaw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -1511,10 +1511,10 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /live-typescript@0.1.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-oq9sVPsQOK0BY6eC5yhJDO2Vqn9eFbkrV49lcOaOP9tFYBlbnDG7JxtO/7SYW3SYG2aAhVWEZm8T0NXxWgrBvA==}
+  /live-typescript@0.1.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-UVEglkguvNdejYdfxdy17NJfL71zmAQoOLn0baDxaMyFliHl4cQqZl5NYIKL07c2uYHV+tOaLPVaUvZcAjMGrQ==}
     peerDependencies:
-      react: ^17.0.2
+      react: '>=17'
     dependencies:
       '@monaco-editor/react': 4.5.1(monaco-editor@0.39.0)(react-dom@18.2.0)(react@18.2.0)
       monaco-editor: 0.39.0
@@ -1779,8 +1779,8 @@ packages:
       glob: 10.2.7
     dev: true
 
-  /rollup@3.24.0:
-    resolution: {integrity: sha512-OgraHOIg2YpHQTjl0/ymWfFNBEyPucB7lmhXrQUh38qNOegxLapSPFs9sNr0qKR75awW41D93XafoR2QfhBdUQ==}
+  /rollup@3.24.1:
+    resolution: {integrity: sha512-REHe5dx30ERBRFS0iENPHy+t6wtSEYkjrhwNsLyh3qpRaZ1+aylvMUdMBUHWUD/RjjLmLzEvY8Z9XRlpcdIkHA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2054,7 +2054,7 @@ packages:
     dependencies:
       esbuild: 0.17.19
       postcss: 8.4.24
-      rollup: 3.24.0
+      rollup: 3.24.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -2105,13 +2105,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  file:../stoneberry:
-    resolution: {directory: ../stoneberry, type: directory}
-    name: stoneberry
-    version: 0.1.6
-    dependencies:
-      '@reactively/core': 0.0.8
-      '@reactively/decorate': 0.0.4
-      thimbleberry: 0.1.10
-    dev: false
