@@ -14,13 +14,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "module": "dist/StoneberryExample.js",
-  "main": "dist/StoneberryExample.cjs",
+  "module": "dist/StoneberryExample.mjs",
+  "main": "dist/StoneberryExample.js",
   "types": "dist/StoneberryExample.d.ts",
   "export": {
     ".": {
-      "import": "dist/StoneberryExample.js",
-      "require": "dist/StoneberryExample.cjs",
+      "import": "dist/StoneberryExample.ms",
+      "require": "dist/StoneberryExample.js",
       "types": "dist/StoneberryExample.d.ts"
     },
     "./style.css": {
