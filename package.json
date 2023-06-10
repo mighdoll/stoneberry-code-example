@@ -1,10 +1,10 @@
 {
   "name": "stoneberry-code-example",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
     "@monaco-editor/react": "^4.5.1",
     "@webgpu/types": "^0.1.32",
-    "code-example": "file:../code-example",
+    "live-typescript": "^0.1.0",
     "monaco-editor": "^0.39.0",
     "stoneberry": "file:../stoneberry",
     "stoneberry-examples": "^0.1.1",

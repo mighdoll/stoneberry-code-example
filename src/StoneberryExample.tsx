@@ -1,7 +1,7 @@
 import "react";
-import { CodeExample } from "code-example";
+import { CodeExample } from "live-typescript";
 import { installStoneberryTypes } from "./StoneberryMonacoTypes.ts";
-import "code-example/style.css";
+import "live-typescript/style.css";
 
 export interface StoneberryCodeExampleProps {
   code: string;
