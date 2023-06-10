@@ -8,8 +8,8 @@ dependencies:
     specifier: ^0.1.32
     version: 0.1.32
   live-typescript:
-    specifier: ^0.1.1
-    version: 0.1.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.1.2
+    version: 0.1.2(react-dom@18.2.0)(react@18.2.0)
   monaco-editor:
     specifier: ^0.39.0
     version: 0.39.0
@@ -1511,8 +1511,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: false
 
-  /live-typescript@0.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-UVEglkguvNdejYdfxdy17NJfL71zmAQoOLn0baDxaMyFliHl4cQqZl5NYIKL07c2uYHV+tOaLPVaUvZcAjMGrQ==}
+  /live-typescript@0.1.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-CFdUhss+8mOKvgQVYCbFHfgjwwNxoDSkbUpWUsIzb/PtKDkCbLjzE1Vd5kvFdvqkJ+aESMX2GyKMBwKTrA/www==}
     peerDependencies:
       react: '>=17'
     dependencies:
