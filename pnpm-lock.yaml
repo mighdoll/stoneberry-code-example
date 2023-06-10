@@ -14,8 +14,8 @@ dependencies:
     specifier: ^0.39.0
     version: 0.39.0
   stoneberry:
-    specifier: ^0.1.4
-    version: 0.1.4
+    specifier: ^0.1.6
+    version: 0.1.6
   stoneberry-examples:
     specifier: ^0.1.1
     version: 0.1.1
@@ -1849,12 +1849,12 @@ packages:
   /stoneberry-examples@0.1.1:
     resolution: {integrity: sha512-iTU1QqUOGCFtErdy+qqWHJ+LPn16+87IlShkWnuQnvnTgAYoVvvrLi9TACI8nCexgRT43pCSbvf9yZfxlBDN4g==}
     dependencies:
-      stoneberry: 0.1.4
+      stoneberry: 0.1.6
       thimbleberry: 0.1.10
     dev: false
 
-  /stoneberry@0.1.4:
-    resolution: {integrity: sha512-nTzHZYq62CUyMvIZq7b8c00e+AyJ2rlR/8RD9p/Fzg+mhJB+TUdJ6yxFDh+LXYIzXDkbt1Y8pb9aiQpI1CIXMA==}
+  /stoneberry@0.1.6:
+    resolution: {integrity: sha512-2KOzWaNqJr0Pw/dN2bEsNmkpjjSfh6hjtCIiGFdkk42EODzZpA7IOonqniC5bOQQoWT8EPlOV5FBtQRY/CWf/g==}
     dependencies:
       '@reactively/core': 0.0.8
       '@reactively/decorate': 0.0.4
