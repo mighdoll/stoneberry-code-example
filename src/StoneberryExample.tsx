@@ -5,16 +5,17 @@ import "live-typescript/style.css";
 
 export interface StoneberryCodeExampleProps {
   code: string;
+  className?: string;
 }
 
 export function StoneberryExample(
   props: StoneberryCodeExampleProps
 ): JSX.Element {
   const packages = ["thimbleberry", "stoneberry/scan", "stoneberry-examples"];
-  const { code } = props;
+  const { code, className } = props;
   return (
     <CodeExample
-      {...{ packages, code }}
+      {...{ packages, code, className }}
       setupTypes={installStoneberryTypes}
     ></CodeExample>
   );
