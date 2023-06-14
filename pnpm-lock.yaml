@@ -17,8 +17,8 @@ dependencies:
     specifier: ^0.1.6
     version: 0.1.6
   stoneberry-examples:
-    specifier: ^0.1.1
-    version: 0.1.1
+    specifier: ^0.1.2
+    version: 0.1.2
   thimbleberry:
     specifier: ^0.1.10
     version: 0.1.10
@@ -1846,8 +1846,8 @@ packages:
     resolution: {integrity: sha512-HTEHMNieakEnoe33shBYcZ7NX83ACUjCu8c40iOGEZsngj9zRnkqS9j1pqQPXwobB0ZcVTk27REb7COQ0UR59w==}
     dev: false
 
-  /stoneberry-examples@0.1.1:
-    resolution: {integrity: sha512-iTU1QqUOGCFtErdy+qqWHJ+LPn16+87IlShkWnuQnvnTgAYoVvvrLi9TACI8nCexgRT43pCSbvf9yZfxlBDN4g==}
+  /stoneberry-examples@0.1.2:
+    resolution: {integrity: sha512-lAduH/LlD2bx6lauOwliNA8Q5zd6HCJHv7yb+gSK5tjZcpP8XX5qW/mHEjAAUI9VGWlUct0fFOVKULqX0PdMIA==}
     dependencies:
       stoneberry: 0.1.6
       thimbleberry: 0.1.10

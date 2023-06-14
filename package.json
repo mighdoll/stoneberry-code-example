@@ -7,7 +7,7 @@
     "live-typescript": "^0.1.4",
     "monaco-editor": "^0.39.0",
     "stoneberry": "^0.1.6",
-    "stoneberry-examples": "^0.1.1",
+    "stoneberry-examples": "^0.1.2",
     "thimbleberry": "^0.1.10"
   },
   "peerDependencies": {
